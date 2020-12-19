@@ -3,147 +3,277 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Crisp</title>
-</head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-<body>
-<div class="main">
-     <div class="logo">
-       <img src="image1.jpeg">
-     </div>
-<div class="title">
-      <h1>risp</h1>
-    </div>
-<div class="button1">
-	<a href="login1.htm" class="btn">Subscribe</a>
-</div> 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+ <title>News and Media</title>
 
 <style>
+  .nav-item {
+    padding: 0px 0px 0px 20px;
+}
+.navbar{
+  float: right;
 
-
-ul {
-  float: left;
-  list-style-type: none;
-  margin-top: 155px;
 }
 
-ul li{
-  display: inline-block;
-}
+.nav-item{
+  margin: 10px;
+  padding-right: 30px;
+  font-size: 20px;
 
-ul li a{
-  text-decoration: none;
-  color: #00FF00;
-  padding: 5px 20px;
-  border: 1px solid transparent;
-  transition: 0.6s ease;
-  font-family: "montserrat";
 }
-
-ul li a:hover{
-  background-color: #FFA500;
-  color: #00FFFF;
+.btn-secondary{
+     background-color: #ffcc03 !important;
 }
-
-ul li.active a{
-  background-color: #FFA500;
-  color: #FFA500;
+.button1 {
+  font-size: 20px;
+   margin-right:20px;
+border-radius: 12px;
+ border: 2px solid white;
 }
-
-*{
-  margin: 0;
-  padding: 0;
-  font-family: Century Gothic;
-}
-
-.logo img{
-  float: left;
-  width: 150px;
-  height: auto;
-  top: 45%;
-  left: 10%;
-}
-
-.title{
-  position: absolute;
-  top: 7%;
-  left: 13%;
-  transform: translate(-15%,-15%);
-}
-
-.title h1{
-  color: #B22222;
-  font-size: 90px;
-}
-
-.button{
-  position: absolute;
-  top: 4%;
-  right: 12%;
-  transform: translate(-15%,-15%);
-}
-
-.button1{
-  position: absolute;
-  top: 4%;
-  right: 3%;
-  transform: translate(-15%,-15%);
-}
-
-.btn{
-	border: 1px solid #000;
-	padding: 10px 20px;
-	color: #F4A460;
-	text-decoration: none;
-}
-
-.btn:hover{
-   background-color: #FFE4E1;
-   color: #B22222;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #FFA500;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: "montserrat";
-}
-
-li a:hover:not(.active) {
-  background-color: #FFA500;
-}
-
-li a.active {
+.button:hover {
+  background-color: #ffcc03;
   color: white;
-  background-color: #FFA500;
+}
+.card{
+  margin: 5% 0%;
 }
 
-p{
-  top:50%;
-  text-align:justify;
-  padding:15px 20px;
+.card-body{
+  margin: 0% 0% 0% 3%;
+  padding: 6% 0%;
 }
+
 
 </style>
 
-<body>
-<ul>
-  <li><a href="Crisp.php">Home</a></li>
-  <li><a href="National.php">National</a></li>
-  <li><a href="Entertainment.php">Entertainment</a></li>
-  <li><a href="Business.php">Business</a></li>
-  <li><a href="Science.php">Science</a></li>
-  <li><a href="Sports.php">Sports</a></li>
-  <li><a href="Technology.php">Technology</a></li>  
-  <li><a href="World.php">World</a></li>
-</ul>
+
+</head>
+
+
+
+
+
+
+<body style="background-color:black;">
+
+ <nav class="navbar navbar-dark navbar-expand-sm navbar-fixed-top ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link " href="#"><span class="fa fa-home fa-lg" style= "color:#ffcc03";></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link " href="./aboutus.html"><span class="fa fa-info fa-lg " style= "color:#ffcc03";></span> About</a></li>
+                <li class="nav-item"><a class="nav-link " href="./contactus.html"><span class="fa fa-address-card fa-lg" style= "color:#ffcc03";></span> Contact</a></li>
+            </ul>
+            
+            <span >
+                       <a href="login1.htm" ><button type="button" class="btn btn-warning button1">Subscribe</button></a>
+
+            </span>
+          
+         </div>
+        </div>
+
+    </nav>
+<img src="./logo.png" width="200" height="130">
+
+       <div class="container">
+
+<!-- Card deck -->
+<div class="card-deck row">
+
+  <div class="col-xs-12 col-sm-6 col-md-4">
+  <!-- Card -->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">1 Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+  </div>
+ <div class="col-xs-12 col-sm-6 col-md-4">
+  <!-- Card -->
+  <div class="card mb-4">
+
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">2 Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <!-- Card -->
+  <div class="card mb-4">
+
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">3 Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <!-- Card -->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">4 Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+</div>
+ 
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <!-- Card -->
+  <div class="card mb-4">
+
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">5 Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-4">  
+  <!-- Card -->
+  <div class="card mb-4">
+
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">6 Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+</div>
+
+
+
+  
+</div>
+<!-- Card deck -->
+  
+</div>
+
+
+
+
+
+
+
+
+
 
 <br>
       </br>
@@ -162,7 +292,7 @@ else {
   
 </br>
     <table border="1">
-    <tr><th>News Headlines</th><th>Media</th><th>Description</th><th>Date of Publish</th></tr>
+    <tr>
     <?php
    while($row = mysqli_fetch_array($rs))
         { ?>
@@ -181,6 +311,50 @@ else {
 
 
   </table>
-</body>
+   <footer class=" footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2 ">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+  
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                  BSK 2nd stage<br>
+                  Banglore <br>
+                 Karnataka<br>
+                    <i class="fa fa-phone fa-lg"></i>: +91 8927258572<br>
+                    <i class="fa fa-fax fa-lg"></i>: +91 9981516116<br>
+                    <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">skynews@media.net</a>
+               </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p style="color: black";>© Copyright 2018 Sky News</p>
+                </div>
+           </div>
+        </div>
+    </footer>
 
+</body>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
