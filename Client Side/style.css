@@ -1,0 +1,57 @@
+/* Add a black background color to the top navigation */
+
+.row-header {
+    margin:0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+       margin:0px auto;
+    padding: 50px 0px 50px 0px auto;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+}
+
+.footer {
+    background-color:  #ffd73b;
+    margin:0px auto;
+    padding: 15px 0px 15px 0px;
+}
+
+.jumbotron {
+ padding: 40px 30px 40px 30px;
+    margin: 0px auto;
+    background:#8A2BE2;
+    color: cornsilk;
+}
+
+address {
+    font-size: 80%;
+    margin: 0px auto;
+    color: black;
+}
+
+
+.nav-item {
+    padding: 0px 0px 0px 20px;
+}
+.carousel {
+    background: #512da8;
+
+}
+.carousel-item{
+    height: 300px;;
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+#carouselButton{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+
+}
+
