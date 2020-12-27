@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+   <title>News and Media</title>
+
+<style>
+  .nav-item {
+    padding: 0px 0px 0px 20px;
+}
+.navbar{
+  float: right;
+
+}
+
+.nav-item{
+  margin: 10px;
+  padding-right: 30px;
+  font-size: 20px;
+
+}
+.btn-secondary{
+     background-color: #ffcc03 !important;
+}
+.button1 {
+  font-size: 20px;
+   margin-right:20px;
+border-radius: 12px;
+ border: 2px solid white;
+}
+.button:hover {
+  background-color: #ffcc03;
+  color: white;
+}
+.card{
+  margin: 5% 0%;
+}
+
+.card-body{
+  margin: 0% 0% 0% 3%;
+  padding: 6% 0%;
+}
+.para{
+    color: white;
+  
+}
+
+
+</style>
+
+
+</head>
+<body style="background-color:black;">
+
+<h3 style="color: #ffcc03" align="center">SkyNews Subsciption</h3>
+<div class="collapse navbar-collapse" Id="navbar">
+</div>
+  </div>
+</nav>
+</div>
+
+<div Id="div-forms" tabindex="-1" class="pl" >
+<form onsubmit="checkforblank()" method="post" action="subscribe.php">
+<div class="form-group">
+<label for="Id" class="col-form-label"><b>:</b></label><br>
+</div>
+<center>
+<div class="form-group">
+<label for="email" class="col-form-label"><b style="color: #ffcc03">E-mail ID:</b></label><br>
+<input type="email" name="email" class="form-cantrol"  Id="email" onkeydown="checkforblank1()"   required>
+</div>
+
+<div class="form-group">
+<label for="genre" class="col-form-label"><b style="color: #ffcc03">Select different genres:</b></label><br>
+  <input type="radio" name="genre" class="form-cantrol" value="2" Id="genre" autocomplete="off" onkeydown="checkforblank1()"  required> <b  style="color: white"> National</b> <br> 
+  <input type="radio" name="genre" class="form-cantrol" value="3" Id="genre" autocomplete="off" onkeydown="checkforblank1()"  required>  <b  style="color: white">Entertainment<br>
+  <input type="radio" name="genre" class="form-cantrol" value="4" Id="genre" autocomplete="off" onkeydown="checkforblank1()"  required>  <b  style="color: white">Business<br>
+  <input type="radio" name="genre" class="form-cantrol" value="5" Id="genre" autocomplete="off" onkeydown="checkforblank1()"  required>  <b  style="color: white">Science<br>
+  <input type="radio" name="genre" class="form-cantrol" value="6" Id="genre" autocomplete="off" onkeydown="checkforblank1()"  required> <b  style="color: white"> Sports<br>
+  <input type="radio" name="genre" class="form-cantrol" value="7" Id="genre" autocomplete="off" onkeydown="checkforblank1()"  required>  <b  style="color: white">Technology<br>
+  <input type="radio" name="genre" class="form-cantrol" value="8" Id="genre" autocomplete="off" onkeydown="checkforblank1()"  required> <b  style="color: white"> Worlds<br>
+</div>
+
+<div class="form-group">
+<label for="period" class="col-form-label"><b  style="color:#ffcc03 ">Period (years):</b></label><br>
+  <input type="number" name="period" class="form-cantrol" Id="period" autocomplete="off" onkeydown="checkforblank1()" max="10" min="0" required>
+</div>
+
+<div class="modal-footer">
+  <div class="row content-center">
+<center></center><button class="btn btn-primary btn-lg" type="submit" onsubmit="checkforblank">Add</button></center>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="valid.js"></script></center>
+
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
